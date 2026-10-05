@@ -1,6 +1,12 @@
 # Dev_Web
 Projetos de desenvolvimento web.
 
+# DoremiSolfa
+
+Projeto individual, disciplina a distância Construção de Página Web
+
+https://victorccruz1.github.io/Dev_Web/doremisolfa/
+
 # HackNite 2026
 
 https://victorccruz1.github.io/Dev_Web/HackNite/
