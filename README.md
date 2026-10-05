@@ -14,11 +14,11 @@ Projeto acadêmico desenvolvido utilizando:
 
 ## Equipe
 
-- 
-- 
-- 
-- 
-- 
+- Ananias Neto
+- Joao Victor Costa
+- João Vitor Batista
+- Rafael Langsch
+- Victor Cruz
 
 ## Descrição
 
