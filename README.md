@@ -8,7 +8,7 @@ Projeto acadêmico desenvolvido utilizando:
 - HTML5
 - CSS3
 - JavaScript
-- Bootstrap 5
+- Bootstrap 5.3.3 via jsDelivr CDN
 
 ## Equipe
 
