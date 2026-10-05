@@ -3,6 +3,8 @@ Projetos de desenvolvimento web.
 
 # HackNite 2026
 
+https://victorccruz1.github.io/Dev_Web/HackNite/
+
 Projeto acadêmico desenvolvido utilizando:
 
 - HTML5
