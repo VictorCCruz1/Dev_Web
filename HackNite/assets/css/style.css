@@ -1,7 +1,10 @@
 :root {
   --ink: #112b50;
   --muted: #66758a;
-  --line: #555;
+  --line-color: #2862ed;  /* Cor */
+  --line-width: 2px;      /* Espessura */
+  --line-style: solid;    /* Estilo: solid, dashed, dotted */
+  --line: var(--line-width) var(--line-style) var(--line-color);
   --page: #f4f5f7;
   --brand: #2862ed;
 }
@@ -23,6 +26,11 @@ body {
 
 a {
   color: var(--brand);
+}
+
+main {
+  flex: 1;
+  min-height: 500px;
 }
 
 .site-nav {
@@ -65,7 +73,7 @@ a {
 }
 
 .hero-panel {
-  min-height: 230px;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -141,11 +149,12 @@ a {
 .page-heading {
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
-  border-bottom: 3px solid #d8dadd;
+  border-bottom: 3px solid var(--line); /* Alterado de #d8dadd para var(--line) */
 }
 
-.schedule-wrap {
-  padding: 0 0.75rem;
+.schedule-wrap .table {
+  --bs-table-bg: transparent;
+  --bs-table-border-color: var(--line); /* Alterado de #e1e5ea para var(--line) */
 }
 
 .schedule-wrap .table {
